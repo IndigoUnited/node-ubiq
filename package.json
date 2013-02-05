@@ -1,0 +1,28 @@
+{
+  "name": "omni",
+  "version": "0.0.0",
+  "description": "Real-time RPC library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IndigoUnited/node-omni.git"
+  },
+  "keywords": [
+    "rpc",
+    "real",
+    "time",
+    "realtime",
+    "real-time",
+    "rmi",
+    "remote",
+    "socket"
+  ],
+  "author": "Indigo United",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "~0.9.13"
+  }
+}

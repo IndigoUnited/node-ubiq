@@ -1,0 +1,1 @@
+- either validate that the input is correct, or functions need to be resilient enough so that they don't break the server just because the client didn't provide the proper arguments

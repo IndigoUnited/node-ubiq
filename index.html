@@ -1,0 +1,8 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect();
+  socket.on('rpc', function (ctx, method) {
+    console.log(arguments);
+//    socket.emit('my other event', { my: 'data' });
+  });
+</script>
