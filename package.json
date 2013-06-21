@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IndigoUnited/node-omni.git"
+    "url": "git://github.com/IndigoUnited/node-omni.git"
   },
   "keywords": [
     "rpc",

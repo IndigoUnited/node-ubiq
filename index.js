@@ -1,3 +1,5 @@
+'use strict';
+
 var io = require('socket.io');
 
 var Omni = function () {
@@ -21,7 +23,7 @@ Omni.listen = function () {
 
         omni.clients[socketId] = socket;
 
-        socket.on('disconnect', function (socket) {
+        socket.on('disconnect', function () {
             delete omni.clients[socketId];
         });
 
@@ -34,7 +36,6 @@ Omni.listen = function () {
             } else {
                 console.error('Unknown method:', method);
             }
-            
         });
     });
 
