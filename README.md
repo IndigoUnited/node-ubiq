@@ -1,4 +1,4 @@
-# omni
+# ubiq
 
 `Real-time RPC library`
 
