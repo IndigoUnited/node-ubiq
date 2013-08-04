@@ -1,5 +1,5 @@
 {
-  "name": "omni",
+  "name": "ubiq",
   "version": "0.0.0",
   "description": "Real-time RPC library",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IndigoUnited/node-omni.git"
+    "url": "git://github.com/IndigoUnited/node-ubiq.git"
   },
   "keywords": [
     "rpc",
